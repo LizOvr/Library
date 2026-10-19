@@ -1,0 +1,1051 @@
+@media (max-width: 1180px) {
+  :root {
+    --page-gutter: 36px;
+  }
+
+  .site-nav {
+    gap: 20px;
+  }
+
+  .hero-grid {
+    grid-template-columns: minmax(0, 1.03fr) minmax(380px, 0.97fr);
+    min-height: 630px;
+  }
+
+  .hero-title {
+    font-size: clamp(64px, 7.6vw, 100px);
+  }
+
+  .hero-visual {
+    min-height: 590px;
+  }
+
+  .visit-card {
+    padding: 52px;
+  }
+
+  .footer-main {
+    gap: 34px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .header-inner {
+    gap: 24px;
+  }
+
+  .site-nav {
+    gap: 17px;
+  }
+
+  .nav-index {
+    display: none;
+  }
+
+  .hero-grid {
+    grid-template-columns: minmax(0, 1.05fr) minmax(350px, 0.95fr);
+    gap: 12px;
+  }
+
+  .hero-title {
+    font-size: clamp(60px, 7.7vw, 88px);
+  }
+
+  .hero-meta span {
+    min-width: 100px;
+    margin-right: 16px;
+    padding-right: 16px;
+  }
+
+  .book-grid {
+    gap: 24px;
+  }
+
+  .footer-main {
+    grid-template-columns: minmax(0, 1.35fr) minmax(110px, 0.6fr) minmax(0, 1fr) minmax(190px, 0.8fr);
+    gap: 26px;
+  }
+}
+
+@media (max-width: 960px) {
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+    min-height: auto;
+    padding-top: 38px;
+    padding-bottom: 10px;
+  }
+
+  .hero-copy {
+    max-width: 730px;
+    padding-bottom: 6px;
+  }
+
+  .hero-visual {
+    width: min(580px, 100%);
+    min-height: 560px;
+    margin: -4px auto 0;
+  }
+
+  .hero-footnote {
+    margin-top: 8px;
+  }
+
+  .about-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 34px;
+    margin-top: 42px;
+  }
+
+  .about-copy {
+    max-width: 660px;
+    padding-top: 0;
+  }
+
+  .about-stats {
+    margin-top: 60px;
+  }
+
+  .shelf-head {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 23px;
+    margin-bottom: 46px;
+  }
+
+  .shelf-intro {
+    max-width: 460px;
+  }
+
+  .book-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 38px 26px;
+  }
+
+  .book-card-cover {
+    max-width: 330px;
+    margin-bottom: 15px;
+  }
+
+  .visit-card {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 27px;
+    padding: 48px;
+  }
+
+  .visit-info {
+    margin-top: 9px;
+  }
+
+  .price-hero {
+    padding-top: 62px;
+  }
+
+  .price-hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 42px;
+  }
+
+  .price-hero-copy {
+    max-width: 720px;
+  }
+
+  .receipt-shell {
+    width: min(100%, 450px);
+    margin: 0 auto;
+  }
+
+  .receipt {
+    transform: rotate(1deg);
+  }
+
+  .price-section-head {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 22px;
+    margin-bottom: 38px;
+  }
+
+  .price-section-copy {
+    max-width: 480px;
+  }
+
+  .membership-head {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 25px;
+  }
+
+  .membership-aside > p {
+    max-width: 520px;
+  }
+
+  .extras-grid,
+  .faq-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 40px;
+  }
+
+  .extras-intro,
+  .faq-intro {
+    position: static;
+  }
+
+  .extras-intro > p,
+  .faq-intro > p {
+    max-width: 520px;
+  }
+
+  .price-cta-inner {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 31px;
+  }
+
+  .price-cta-actions {
+    padding-bottom: 0;
+  }
+
+  .footer-main {
+    grid-template-columns: minmax(0, 1.4fr) minmax(120px, 0.6fr);
+    gap: 42px 34px;
+  }
+
+  .footer-note-card {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 860px) {
+  .site-nav {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    max-height: calc(100vh - 98px);
+    margin: 0;
+    padding: 14px 24px 23px;
+    overflow-y: auto;
+    border-bottom: 1px solid var(--line);
+    background: rgba(241, 233, 220, 0.98);
+    box-shadow: 0 20px 40px rgba(33, 25, 16, 0.1);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+  }
+
+  .site-nav.is-open {
+    display: flex;
+  }
+
+  .site-nav-link {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--line);
+    font-size: 14px;
+  }
+
+  .site-nav-link::after {
+    display: none;
+  }
+
+  .nav-index {
+    display: inline;
+    font-size: 8px;
+  }
+
+  .mobile-nav-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 44px;
+    margin-top: 17px;
+    border-radius: 999px;
+    color: var(--paper-light);
+    background: var(--ink);
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .header-cta {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: grid;
+  }
+
+  .header-inner {
+    height: 68px;
+  }
+
+  .hero-title {
+    font-size: clamp(58px, 8.6vw, 84px);
+  }
+
+  .about-values {
+    gap: 25px;
+  }
+
+  .about-values h3 {
+    font-size: 25px;
+  }
+
+  .visit-card {
+    padding: 42px;
+  }
+
+  .plans-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+    margin-top: 38px;
+  }
+
+  .plan-card {
+    min-height: 0;
+  }
+
+  .plan-card--featured,
+  .plan-card--featured:hover {
+    transform: none;
+  }
+
+  .plan-cta {
+    margin-top: 25px;
+  }
+
+  .plan-description {
+    min-height: 0;
+  }
+
+  .shelf-footer {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 21px;
+  }
+
+  .footer-main {
+    padding-bottom: 44px;
+  }
+}
+
+@media (max-width: 720px) {
+  :root {
+    --page-gutter: 24px;
+  }
+
+  .hero-grid {
+    padding-top: 32px;
+  }
+
+  .hero-title {
+    font-size: clamp(50px, 11.5vw, 72px);
+  }
+
+  .hero-lead {
+    font-size: 15.5px;
+    line-height: 1.85;
+  }
+
+  .hero-meta {
+    margin-top: 35px;
+  }
+
+  .visual-label {
+    left: 1%;
+  }
+
+  .visual-vertical {
+    right: 0;
+  }
+
+  .cover-slot--center {
+    left: 25%;
+    width: 50%;
+  }
+
+  .cover-slot--left {
+    width: 37%;
+  }
+
+  .cover-slot--right {
+    width: 36%;
+  }
+
+  .hero-sticker {
+    width: 70px;
+    height: 70px;
+    font-size: 9px;
+  }
+
+  .hero-sticker strong {
+    font-size: 18px;
+  }
+
+  .hero-price {
+    font-size: 23px;
+  }
+
+  .about-section,
+  .shelf-section {
+    padding-top: 76px;
+    padding-bottom: 74px;
+  }
+
+  .display-title {
+    font-size: clamp(43px, 7.5vw, 66px);
+  }
+
+  .about-values {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 27px;
+    margin-top: 44px;
+  }
+
+  .about-values p {
+    max-width: 440px;
+  }
+
+  .about-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 48px;
+  }
+
+  .about-stats div {
+    padding: 23px 18px 22px 0;
+    border-bottom: 1px solid var(--line-paper);
+  }
+
+  .about-stats div + div {
+    padding-left: 18px;
+  }
+
+  .about-stats div:nth-child(2n) {
+    border-right: 0;
+  }
+
+  .about-stats div:nth-last-child(-n + 2) {
+    border-bottom: 0;
+  }
+
+  .book-grid {
+    gap: 31px 20px;
+  }
+
+  .book-card h3 {
+    font-size: 20px;
+  }
+
+  .visit-section {
+    padding-bottom: 75px;
+  }
+
+  .visit-card {
+    padding: 34px 26px;
+    border-radius: 23px;
+  }
+
+  .visit-card::before {
+    font-size: 210px;
+  }
+
+  .visit-copy > p {
+    font-size: 13.5px;
+  }
+
+  .visit-services {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .visit-services article,
+  .visit-services article + article {
+    padding: 21px 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .visit-services article:last-child {
+    border-bottom: 0;
+  }
+
+  .visit-services p {
+    max-width: 460px;
+  }
+
+  .price-hero {
+    padding: 53px 0 55px;
+  }
+
+  .price-title {
+    font-size: clamp(82px, 17vw, 126px);
+  }
+
+  .price-lead {
+    font-size: 15px;
+  }
+
+  .receipt {
+    padding: 26px 23px;
+  }
+
+  .price-list-section {
+    padding: 76px 0 80px;
+  }
+
+  .price-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .price-table-wrap {
+    overflow: visible;
+    border-top: 0;
+    border-bottom: 0;
+    background: transparent;
+  }
+
+  .price-table {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    table-layout: auto;
+  }
+
+  .price-table thead {
+    display: none;
+  }
+
+  .price-table tbody {
+    display: grid;
+    gap: 11px;
+  }
+
+  .price-table tbody tr {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 13px 16px;
+    padding: 17px 18px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: rgba(251, 246, 236, 0.5);
+  }
+
+  .price-table tbody tr:hover {
+    background: var(--paper-light);
+  }
+
+  .price-table td {
+    display: block;
+    padding: 0;
+    border: 0;
+  }
+
+  .price-table th,
+  .price-table td {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .cell-index,
+  .cell-category {
+    display: none !important;
+  }
+
+  .cell-book {
+    grid-column: 1 / -1;
+    padding-bottom: 11px !important;
+    border-bottom: 1px dashed var(--line) !important;
+    white-space: normal;
+  }
+
+  .cell-book-copy strong {
+    font-size: 19px;
+  }
+
+  .cell-book-copy small {
+    font-size: 8px;
+    line-height: 1.5;
+  }
+
+  .cell-book-category {
+    display: inline;
+  }
+
+  .price-swatch {
+    width: 31px;
+    height: 44px;
+  }
+
+  .cell-price,
+  .cell-member {
+    padding-top: 9px !important;
+    border-top: 1px dashed var(--line);
+    text-align: left;
+  }
+
+  .cell-price::before,
+  .cell-member::before {
+    display: block;
+    margin-bottom: 4px;
+    color: var(--ink-muted);
+    content: attr(data-label);
+    font-family: var(--font-mono);
+    font-size: 7px;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+  }
+
+  .cell-price {
+    font-size: 13px !important;
+  }
+
+  .cell-member strong {
+    display: inline;
+    font-size: 13px;
+  }
+
+  .cell-member small {
+    display: inline;
+    margin-left: 4px;
+  }
+
+  .membership-section {
+    padding: 76px 0;
+  }
+
+  .extras-section {
+    padding: 76px 0;
+  }
+
+  .faq-section {
+    padding-bottom: 78px;
+  }
+
+  .extra-item {
+    grid-template-columns: 24px minmax(0, 1fr) auto;
+    gap: 11px;
+    padding: 19px 0;
+  }
+
+  .extra-copy h3 {
+    font-size: 21px;
+  }
+
+  .faq-item > p {
+    padding-left: 0;
+  }
+
+  .price-cta {
+    padding: 58px 0;
+  }
+
+  .price-cta h2 {
+    font-size: clamp(44px, 8.6vw, 64px);
+  }
+
+  .footer-main {
+    gap: 33px 26px;
+  }
+
+  .footer-bottom {
+    flex-wrap: wrap;
+    gap: 10px 22px;
+  }
+}
+
+@media (max-width: 560px) {
+  :root {
+    --page-gutter: 16px;
+  }
+
+  .site-top {
+    position: relative;
+  }
+
+  .header-inner {
+    height: 64px;
+    gap: 14px;
+  }
+
+  .brand {
+    gap: 10px;
+  }
+
+  .brand-mark {
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+  }
+
+  .brand-text strong {
+    font-size: 17px;
+  }
+
+  .brand-text small {
+    font-size: 6.5px;
+  }
+
+  .ticker {
+    height: 27px;
+  }
+
+  .ticker-item {
+    gap: 18px;
+    padding-right: 27px;
+    font-size: 8px;
+  }
+
+  .hero-title {
+    font-size: clamp(45px, 12.8vw, 63px);
+  }
+
+  .hero-eyebrow {
+    gap: 7px;
+    font-size: 8.5px;
+    letter-spacing: 0.1em;
+  }
+
+  .eyebrow-year {
+    width: 100%;
+    margin-left: 14px;
+    margin-top: 2px;
+  }
+
+  .hero-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .hero-actions .button {
+    width: 100%;
+  }
+
+  .hero-meta {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 9px;
+  }
+
+  .hero-meta span {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .hero-visual {
+    min-height: 445px;
+    margin-top: 13px;
+  }
+
+  .cover-slot--center {
+    top: 8%;
+    left: 24%;
+    width: 52%;
+  }
+
+  .cover-slot--left {
+    top: 23%;
+    left: 0;
+    width: 38%;
+  }
+
+  .cover-slot--right {
+    top: 26%;
+    right: 0;
+    width: 37%;
+  }
+
+  .visual-star {
+    top: 14%;
+    font-size: 30px;
+  }
+
+  .visual-label {
+    font-size: 6.5px;
+  }
+
+  .visual-caption {
+    left: 31%;
+    font-size: 6.5px;
+  }
+
+  .hero-price {
+    bottom: 8%;
+    padding: 5px 9px;
+    font-size: 20px;
+  }
+
+  .hero-footnote {
+    font-size: 6.5px;
+  }
+
+  .hero-footnote > p {
+    display: none;
+  }
+
+  .about-section,
+  .shelf-section {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+
+  .section-rail {
+    font-size: 7.5px;
+  }
+
+  .display-title {
+    font-size: clamp(40px, 11vw, 55px);
+    margin-top: 23px;
+  }
+
+  .about-copy p:first-child {
+    font-size: 16px;
+  }
+
+  .about-values h3 {
+    font-size: 25px;
+  }
+
+  .about-stats strong {
+    font-size: 42px;
+  }
+
+  .about-sign {
+    flex-wrap: wrap;
+  }
+
+  .about-sign span:last-child {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .book-grid {
+    gap: 27px 15px;
+  }
+
+  .book-card-cover {
+    margin-bottom: 12px;
+  }
+
+  .book-card-meta {
+    font-size: 6.5px;
+  }
+
+  .book-card h3 {
+    font-size: 18px;
+  }
+
+  .book-card-author {
+    font-size: 7px;
+  }
+
+  .book-card-blurb {
+    margin-top: 9px;
+    font-size: 10.5px;
+    line-height: 1.65;
+  }
+
+  .book-card-foot {
+    margin-top: 12px;
+    padding-top: 9px;
+  }
+
+  .book-tag {
+    font-size: 7px;
+  }
+
+  .book-card-foot a {
+    font-size: 9px;
+  }
+
+  .book-card-hover {
+    display: none;
+  }
+
+  .visit-card {
+    padding: 29px 21px;
+  }
+
+  .visit-info-item {
+    grid-template-columns: 36px minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .visit-icon {
+    width: 34px;
+    height: 34px;
+  }
+
+  .visit-info-item strong {
+    font-size: 21px;
+  }
+
+  .price-hero {
+    padding-top: 42px;
+  }
+
+  .price-title {
+    font-size: clamp(74px, 21vw, 100px);
+  }
+
+  .price-hero-note {
+    gap: 7px 17px;
+    font-size: 7.5px;
+  }
+
+  .receipt {
+    padding: 24px 20px;
+    transform: none;
+  }
+
+  .receipt-stamp {
+    right: 19px;
+    bottom: 19px;
+    width: 55px;
+    height: 55px;
+    font-size: 15px;
+  }
+
+  .barcode {
+    height: 26px;
+  }
+
+  .filter-button {
+    min-height: 31px;
+    padding: 0 11px;
+    font-size: 9.5px;
+  }
+
+  .price-table th,
+  .price-table td {
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+
+  .plan-card {
+    padding: 25px 21px 21px;
+  }
+
+  .plan-card h3 {
+    font-size: 31px;
+  }
+
+  .plan-price strong {
+    font-size: 58px;
+  }
+
+  .extras-stamp {
+    width: 92px;
+    height: 92px;
+  }
+
+  .extra-item {
+    grid-template-columns: 21px minmax(0, 1fr) auto;
+  }
+
+  .extra-copy h3 {
+    font-size: 19px;
+  }
+
+  .extra-copy p {
+    font-size: 9.5px;
+  }
+
+  .extra-item > strong {
+    font-size: 9.5px;
+  }
+
+  .faq-question {
+    font-size: 18px;
+  }
+
+  .faq-number {
+    width: 15px;
+  }
+
+  .faq-mark {
+    width: 22px;
+    height: 22px;
+    font-size: 14px;
+  }
+
+  .price-cta-actions {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .footer-main {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 31px;
+  }
+
+  .footer-brand > p {
+    max-width: 370px;
+  }
+
+  .footer-note-card {
+    max-width: 330px;
+    transform: none;
+  }
+
+  .footer-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-title {
+    font-size: 43px;
+  }
+
+  .hero-visual {
+    min-height: 405px;
+  }
+
+  .visual-label,
+  .visual-caption {
+    display: none;
+  }
+
+  .hero-sticker {
+    top: 3%;
+    right: 2%;
+    width: 60px;
+    height: 60px;
+    font-size: 8px;
+  }
+
+  .hero-sticker strong {
+    font-size: 16px;
+  }
+
+  .hero-price {
+    font-size: 18px;
+  }
+
+  .book-card h3 {
+    font-size: 16px;
+  }
+
+  .book-card-blurb {
+    display: none;
+  }
+
+  .book-card-foot {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .price-title {
+    font-size: 70px;
+  }
+
+  .plan-price strong {
+    font-size: 52px;
+  }
+}

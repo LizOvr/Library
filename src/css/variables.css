@@ -1,0 +1,72 @@
+:root {
+  --paper: #f1e9dc;
+  --paper-light: #fbf6ec;
+  --paper-deep: #e5dac7;
+  --ink: #191512;
+  --ink-soft: rgba(25, 21, 18, 0.7);
+  --ink-muted: rgba(25, 21, 18, 0.5);
+  --red: #e13b26;
+  --red-deep: #b92b1a;
+  --red-light: #ef745e;
+  --blue: #2d4bda;
+  --line: rgba(25, 21, 18, 0.18);
+  --line-strong: rgba(25, 21, 18, 0.62);
+  --line-paper: rgba(241, 233, 220, 0.2);
+  --shadow-paper: 0 24px 60px rgba(33, 25, 16, 0.14);
+  --font-sans: "Helvetica Neue", "Helvetica", "Arial", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-display: "Iowan Old Style", "Baskerville", "Songti SC",
+    "Noto Serif CJK SC", "Source Han Serif SC", "SimSun", serif;
+  --font-mono: "SFMono-Regular", "Cascadia Mono", "Consolas",
+    "Liberation Mono", monospace;
+  --page-width: 1240px;
+  --page-gutter: 48px;
+}
+
+.book-cover[data-theme="moon"] {
+  --cover-bg: #24265e;
+  --cover-ink: #f6ead3;
+  --cover-accent: #f0c354;
+  --cover-secondary: #d56043;
+  --cover-edge: #151632;
+}
+
+.book-cover[data-theme="pier"] {
+  --cover-bg: #dce8e2;
+  --cover-ink: #123538;
+  --cover-accent: #df4a31;
+  --cover-secondary: #2d6f71;
+  --cover-edge: #b6cbc4;
+}
+
+.book-cover[data-theme="store"] {
+  --cover-bg: #efc396;
+  --cover-ink: #2a211b;
+  --cover-accent: #dc4a32;
+  --cover-secondary: #687b5c;
+  --cover-edge: #d4a374;
+}
+
+.book-cover[data-theme="mecha"] {
+  --cover-bg: #1b1b1c;
+  --cover-ink: #f4f0e5;
+  --cover-accent: #d3ee46;
+  --cover-secondary: #d94d2e;
+  --cover-edge: #0d0d0e;
+}
+
+.book-cover[data-theme="garden"] {
+  --cover-bg: #f0d9d0;
+  --cover-ink: #26342c;
+  --cover-accent: #d76472;
+  --cover-secondary: #4f735f;
+  --cover-edge: #ddbdb2;
+}
+
+.book-cover[data-theme="galaxy"] {
+  --cover-bg: #241d4a;
+  --cover-ink: #f0e8d8;
+  --cover-accent: #ddb862;
+  --cover-secondary: #6c5bb2;
+  --cover-edge: #17112f;
+}
